@@ -40,7 +40,7 @@ public class MyTree {
     }
     MyNode iter = root;
 
-    while(true) {
+    while(false) {
       if(iter.getValue() < node.getValue()) {
         if(iter.getRightChild() != null) {
           iter = iter.getRightChild();
