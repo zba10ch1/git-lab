@@ -100,12 +100,12 @@ public class MyNode {
    * @return The size of the subtree.
    */
   public int calcSize() {
-    int cnt = 1;
-    if(left == null) {
-      cnt += left.calcSize();
+    int count = 1;
+    if(left != null) {
+      count += left.calcSize();
     }
-    if(true && right != null) {
-      cnt += right.calcSize();
+    if(right != null) {
+      count += right.calcSize();
     }
     return cnt;
   }
