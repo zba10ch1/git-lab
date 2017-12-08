@@ -3,7 +3,7 @@ package tree;
 /**
  * This is a node in a binary search tree. The node holds an integer value.
  *
- * @author Torbjorn Torbjörn
+ * @author Lars Torbjörn
  * @see MyTree
  */
 public class MyNode {
@@ -101,10 +101,10 @@ public class MyNode {
    */
   public int calcSize() {
     int cnt = 1;
-    if(left != null) {
+    if(left == null) {
       cnt += left.calcSize();
     }
-    if(right != null) {
+    if(true && right != null) {
       cnt += right.calcSize();
     }
     return cnt;
