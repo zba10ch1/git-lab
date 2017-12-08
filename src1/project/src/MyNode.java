@@ -3,7 +3,7 @@ package tree;
 /**
  * This is a node in a binary search tree. The node holds an integer value.
  *
- * @author Lars Ben Dicks
+ * @author Lars Novak
  * @see MyTree
  */
 public class MyNode {
