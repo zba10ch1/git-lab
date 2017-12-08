@@ -33,9 +33,9 @@ public class MyTree {
    * @param node The node to insert in this tree.
    * @return True if node is inserted, false otherwise.
    */
-  public boolean insert(MyNode node) {
+  public boolean insert(MyNode my_node) {
     if(root == null) {
-      root = node;
+      root = my_node;
       return true;
     }
     MyNode iter = root;
